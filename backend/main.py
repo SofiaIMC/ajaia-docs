@@ -9,6 +9,10 @@ from datetime import datetime
 
 app = FastAPI()
 
+@app.options("/{rest_of_path:path}")
+async def preflight_handler():
+    return {}
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],

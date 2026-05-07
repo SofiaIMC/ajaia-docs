@@ -10,7 +10,7 @@ from datetime import datetime
 app = FastAPI()
 
 @app.options("/{rest_of_path:path}")
-async def preflight_handler():
+async def preflight_handler(rest_of_path: str):
     return {}
 
 app.add_middleware(

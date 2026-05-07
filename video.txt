@@ -1,4 +1,4 @@
-Walkthrough video URL: [INSERT LOOM OR YOUTUBE LINK HERE]
+Walkthrough video URL: https://drive.google.com/file/d/1k65aGfLjWR65NBZ1YEEIkuPBXeuD0YZK/view?usp=sharing
 
 Video covers:
 - Login flow with demo accounts

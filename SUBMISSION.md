@@ -18,8 +18,8 @@
 
 ## Live Deployment
 
-- **Frontend:** `[Vercel URL]`
-- **Backend API:** `[Render URL]`
+- **Frontend:** `[[Vercel URL]](https://ajaia-docs-navy.vercel.app)`
+- **Backend API:** `[[Render URL]](https://ajaia-docs-production-44ff.up.railway.app)`
 
 ## Demo Credentials
 

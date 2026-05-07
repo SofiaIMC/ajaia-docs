@@ -1,0 +1,11 @@
+Walkthrough video URL: [INSERT LOOM OR YOUTUBE LINK HERE]
+
+Video covers:
+- Login flow with demo accounts
+- Creating and editing a document (rich text formatting demo)
+- Uploading a .txt file and importing it as a document
+- Sharing a document with another user
+- Viewing shared documents from the second account
+- Revoking share access
+- Architecture and scope decisions (2 min)
+- How AI tools were used (1 min)

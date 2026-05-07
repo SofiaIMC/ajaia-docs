@@ -1,0 +1,111 @@
+/* Tiptap editor content styles */
+.tiptap-editor {
+  outline: none;
+  min-height: 400px;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--ink);
+}
+
+.tiptap-editor p {
+  margin: 0 0 0.75em;
+}
+
+.tiptap-editor h1 {
+  font-family: var(--font-serif);
+  font-size: 2em;
+  line-height: 1.2;
+  margin: 1em 0 0.5em;
+  color: var(--ink);
+}
+
+.tiptap-editor h2 {
+  font-family: var(--font-serif);
+  font-size: 1.5em;
+  line-height: 1.3;
+  margin: 0.9em 0 0.4em;
+  color: var(--ink);
+}
+
+.tiptap-editor h3 {
+  font-family: var(--font-serif);
+  font-size: 1.2em;
+  line-height: 1.4;
+  margin: 0.8em 0 0.3em;
+  color: var(--ink);
+}
+
+.tiptap-editor ul,
+.tiptap-editor ol {
+  padding-left: 1.5em;
+  margin: 0 0 0.75em;
+}
+
+.tiptap-editor li {
+  margin-bottom: 0.25em;
+}
+
+.tiptap-editor strong {
+  font-weight: 700;
+}
+
+.tiptap-editor em {
+  font-style: italic;
+}
+
+.tiptap-editor u {
+  text-decoration: underline;
+}
+
+.tiptap-editor blockquote {
+  border-left: 3px solid var(--accent);
+  margin: 1em 0;
+  padding: 0.5em 0 0.5em 1em;
+  color: var(--ink-muted);
+  font-style: italic;
+}
+
+.tiptap-editor code {
+  background: var(--parchment-dark);
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
+.tiptap-editor pre {
+  background: var(--ink);
+  color: var(--parchment);
+  padding: 1em;
+  border-radius: var(--radius-sm);
+  margin: 1em 0;
+  overflow-x: auto;
+}
+
+.tiptap-editor pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+  font-size: 0.9em;
+}
+
+/* Placeholder */
+.tiptap-editor p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: var(--ink-faint);
+  pointer-events: none;
+  height: 0;
+}
+
+/* Selection */
+.tiptap-editor ::selection {
+  background: var(--accent-light);
+}
+
+/* Card hover effect */
+div[role="button"]:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--ink-faint) !important;
+}
